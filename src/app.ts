@@ -9,4 +9,4 @@ const app = new App().application;
 app.get("/", (req: express.Request, res: express.Response) => {
   res.send("start");
 })
-app.listen(4000, () => console.log("start")); 
+app.listen(4000, () => console.log(`Open Server http://127.0.0.1:4000`)); 
