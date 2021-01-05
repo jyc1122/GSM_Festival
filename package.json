@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "name": "gsm_festival",
   "version": "1.0.0",
@@ -26,3 +27,33 @@
     "tsc-watch": "^4.2.9"
   }
 }
+=======
+{
+  "name": "gsm_festival",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \"node dist/app.js\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iseolin76/GSM_Festival.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iseolin76/GSM_Festival/issues"
+  },
+  "homepage": "https://github.com/iseolin76/GSM_Festival#readme",
+  "dependencies": {
+    "@types/express": "^4.17.9",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "typescript": "^4.1.2"
+  },
+  "devDependencies": {
+    "tsc-watch": "^4.2.9"
+  }
+}
+>>>>>>> 4608f489232691e2f449934a2b189da7b96c4f06

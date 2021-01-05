@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "compilerOptions": {
     "module": "commonjs",
@@ -8,4 +9,16 @@
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules"]
+=======
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "ES2015",
+    "sourceMap": true,
+    "outDir": "dist",
+    "moduleResolution": "node"
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+>>>>>>> 4608f489232691e2f449934a2b189da7b96c4f06
 }
